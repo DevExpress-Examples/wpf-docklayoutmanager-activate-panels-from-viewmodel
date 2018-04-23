@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+                    xmlns:local="clr-namespace:ActivateViaViewModel">
+    <Style TargetType="dxd:DocumentPanel">
+        <Setter Property="AllowDrag" Value="False" />
+        <Setter Property="Caption" Value="{Binding DisplayName}" />
+        <Setter Property="CloseCommand" Value="{Binding CloseCommand}" />
+        <Setter Property="IsActive" Value="{Binding IsActive, Mode=TwoWay}" />
+        <Setter Property="FloatOnDoubleClick" Value="False" />
+    </Style>
+    <ControlTemplate TargetType="Button" x:Key="addTabButtonTemplate">
+        <Grid>
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="MouseOver">
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="BackgroundBorder" Storyboard.TargetProperty="Opacity" To="1" Duration="0" />
+                        </Storyboard>
+                    </VisualState>
+                    <VisualState x:Name="Normal" />
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+            <Border Background="AntiqueWhite" x:Name="BackgroundBorder" Opacity="0.3" CornerRadius="2">
+                <TextBlock Text="+" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+</ResourceDictionary>
