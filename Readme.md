@@ -2,10 +2,10 @@
 *Files to look at*:
 
 * [App.SL.xaml](./CS/App.SL.xaml) (VB: [App.SL.xaml](./VB/App.SL.xaml))
-* [App.SL.xaml.cs](./CS/App.SL.xaml.cs) (VB: [App.SL.xaml](./VB/App.SL.xaml))
-* [MainPage.xaml](./CS/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/MainPage.xaml.vb))
+* [App.SL.xaml.cs](./CS/App.SL.xaml.cs) (VB: [App.SL.xaml.vb](./VB/App.SL.xaml.vb))
+* [MainPage.xaml](./CS/MainPage.xaml) (VB: [MainPage.xaml](./VB/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/MainPage.xaml.vb))
-* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 * [MainWindowResources.xaml](./CS/MainWindowResources.xaml) (VB: [MainWindowResources.xaml](./VB/MainWindowResources.xaml))
 * [ViewModel.cs](./CS/ViewModel.cs) (VB: [ViewModel.vb](./VB/ViewModel.vb))
