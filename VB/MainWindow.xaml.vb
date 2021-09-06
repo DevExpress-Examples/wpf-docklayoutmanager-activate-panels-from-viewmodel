@@ -15,15 +15,15 @@ Imports DevExpress.Xpf.Core
 Imports System.Windows.Threading
 
 Namespace ActivateViaViewModel
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            DataContext = New MainWindowViewModel()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+			DataContext = New MainWindowViewModel()
+		End Sub
+	End Class
 End Namespace

@@ -11,12 +11,12 @@ Imports System.Windows.Media.Animation
 Imports System.Windows.Shapes
 
 Namespace ActivateViaViewModel.SL
-    Partial Public Class MainPage
-        Inherits UserControl
+	Partial Public Class MainPage
+		Inherits UserControl
 
-        Public Sub New()
-            InitializeComponent()
-            DataContext = New MainWindowViewModel()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+			DataContext = New MainWindowViewModel()
+		End Sub
+	End Class
 End Namespace
