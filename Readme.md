@@ -6,7 +6,7 @@
 
 # WPF DockLayoutManager - Activate Panels From a ViewModel
 
-This example uses two-way binding in the [BaseLayoutItem.IsActive](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.IsActive) property to activate a panel. After you change an active panel, it is passed to DockLayoutManager an associated ViewModel is activated.
+This example uses two-way binding in the [BaseLayoutItem.IsActive](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.IsActive) property to activate a panel. After you change an active panel, it is passed to [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) and the associated ViewModel is activated.
 
 ![image](https://user-images.githubusercontent.com/12169834/175310433-6954dc58-4f51-42d8-b3e8-98f50ab37db0.png)
 
